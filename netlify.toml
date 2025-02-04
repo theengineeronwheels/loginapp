@@ -1,4 +1,4 @@
 [build]
-  command = "npm run build"  # Or your build command (if you use a bundler/transpiler)
+  command = "node server.js"  # Or your build command (if you use a bundler/transpiler)
   publish = "public"         # Your static assets directory (if any)
   functions = "netlify/functions"
