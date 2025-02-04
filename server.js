@@ -9,13 +9,13 @@ import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 import csurf from "csurf";
 import cookieParser from "cookie-parser"; // ✅ REQUIRED for CSRF with cookies
+import ejs from "ejs";
 
 // Load environment variables
 dotenv.config();
 
 // Initialize Express app
 const app = express();
-const ejs = require("ejs");
 
 // Use Helmet for security
 app.use(helmet());
