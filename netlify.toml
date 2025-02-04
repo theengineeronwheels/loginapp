@@ -1,4 +1,8 @@
 [build]
-  command = "node server.js"  # Or your build command (if you use a bundler/transpiler)
-  publish = "public"         # Your static assets directory (if any)
-  functions = "netlify/functions"
+  command = "echo 'No build step required'"
+  publish = "public"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
