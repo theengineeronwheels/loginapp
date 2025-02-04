@@ -28,3 +28,5 @@ yarn.lock
 # Temporary files created by the editor or OS
 Thumbs.db
 ehthumbs.db
+# Local Netlify folder
+.netlify

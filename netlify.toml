@@ -1,5 +1,5 @@
 [build]
-  command = "echo 'No build step required'"
+  command = "npm install && npm run build"
   publish = "public"
 
 [[redirects]]
