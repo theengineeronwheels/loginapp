@@ -15,6 +15,7 @@ dotenv.config();
 
 // Initialize Express app
 const app = express();
+const ejs = require("ejs");
 
 // Use Helmet for security
 app.use(helmet());
